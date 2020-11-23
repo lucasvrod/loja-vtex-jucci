@@ -1,0 +1,71 @@
+.newletter {
+  position: absolute;
+  width: 100%;
+  height: 650px;
+  left: 0px;
+  top: 2760px;
+  background: $black;
+
+  &__content-title {
+    position: absolute;
+    width: 676px;
+    height: 80px;
+    left: 382px;
+    top: 136px;
+
+    &-h1 {
+      position: absolute;
+      width: 676px;
+      height: 80px;
+      left: 382px;
+      top: 136px;
+      font-family: Barlow;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 40px;
+      text-align: center;
+      text-transform: uppercase;
+      color: $white;
+    }
+
+    &-slashes {
+      position: absolute;
+      width: 29px;
+      height: 24px;
+      left: 382px;
+      top: 144px;
+      font-family: Barlow;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 24px;
+      color: $green-jussi;
+    }
+    }
+
+    &-submit {
+      position: absolute;
+      width: 89px;
+      height: 40px;
+      left: 882px;
+      top: 250px;
+      font-family: Barlow;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 40px;
+      text-transform: uppercase;
+      color: $green-jussi;
+      background: $black;
+    }
+
+    &-input {
+      position: absolute;
+      width: 502px;
+      height: 60px;
+      left: 469px;
+      top: 240px;
+      background: $black;
+    }
+  }

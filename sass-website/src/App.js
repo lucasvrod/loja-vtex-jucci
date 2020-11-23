@@ -6,6 +6,7 @@ import Logobar from "./components/LogoBar"
 import OurSolussion from "./components/OurSolussion"
 import JussiSession from "./components/JussiSession"
 import Contact from "./components/Contact"
+import Newletter from "./components/Newletter"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <OurSolussion />
       <JussiSession />
       <Contact />
+      <Newletter />
     </div>
   );
 }
