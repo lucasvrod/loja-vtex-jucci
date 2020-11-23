@@ -1,6 +1,166 @@
 .header {
-// todo
+  position: absolute;
   width: 100%;
-  height: 75vh;
-  @include logoJussi('../../../../sass-website/src/images/nav-bar/logoJussiVectorGreen.svg')
+  height: 650px;
+  left: 0px;
+  top: 80px;
+  background: $green-jussi;
+  // width: 100%;
+  // height: 75vh;
+  // @include logoJussi('../../../../sass-website/src/images/hero-banner/background-hero-banner.svg');
+
+  &__content-title{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 538px;
+    height: 231px;
+    left: 166px;
+    top: 160px;
+
+  &-slashes {
+    position: static;
+    width: 87px;
+    height: 77px;
+    left: 0px;
+    top: 0px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    text-transform: uppercase;
+    color: $white;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    }
+
+  &-h1 {
+    position: static;
+    width: 451px;
+    height: 231px;
+    left: 87px;
+    top: 0px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    text-transform: uppercase;
+    color: $black;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+}
+
+  &__content-images {
+    position: absolute;
+    width: 460.9px;
+    height: 480px;
+    left: 729px;
+    top: 120px;
+
+    &-retangle1{
+      position: absolute;
+      width: 209px;
+      height: 271px;
+      left: 129px;
+      top: 150px;
+      background: #FFFFFF;
+      border: 1px solid #F2F2F2;
+      box-sizing: border-box;
+      box-shadow: 0px 32px 32px rgba(0, 0, 0, 0.25);
+      border-radius: 8px;
+
+      &-card1{
+        position: absolute;
+        width: 209px;
+        height: 271px;
+        left: 729px;
+        top: 276.43px;
+        @include images('../../../../sass-website/src/images/hero-banner/card1.svg');
+      }
+    }
+
+    &-retangle2{
+      position: absolute;
+      width: 209px;
+      height: 271px;
+      left: 380.9px;
+      top: 200px;
+      background: #FFFFFF;
+      border: 1px solid #F2F2F2;
+      box-sizing: border-box;
+      box-shadow: 0px 32px 32px rgba(0, 0, 0, 0.25);
+      border-radius: 8px;
+
+      &-card2{
+        position: absolute;
+        width: 209px;
+        height: 271px;
+        left: 858.49px;
+        top: 120px;
+        @include images('../../../../sass-website/src/images/hero-banner/card2.svg');
+      }
+    }
+
+    &-retangle3{
+      position: absolute;
+      width: 209px;
+      height: 271px;
+      left: 258.49px;
+      top: 0px;
+      background: #FFFFFF;
+      border: 1px solid #F2F2F2;
+      box-sizing: border-box;
+      box-shadow: 0px 32px 32px rgba(0, 0, 0, 0.25);
+      border-radius: 8px;
+
+      &-card3{
+        position: absolute;
+        width: 209px;
+        height: 271px;
+        left: 980.9px;
+        top: 329px;
+        @include images('../../../../sass-website/src/images/hero-banner/card3.svg');
+      }
+    }
+  }
+
+  &__content-p {
+    position: absolute;
+    width: 329px;
+    height: 72px;
+    left: 253px;
+    top: 407px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: $black;
+  }
+
+  &__content-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+    position: absolute;
+    width: 196px;
+    height: 48px;
+    left: 253px;
+    top: 511px;
+    border: 1px solid $black;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: $green-jussi;
+  }
 }
