@@ -7,6 +7,7 @@ import OurSolussion from "./components/OurSolussion"
 import JussiSession from "./components/JussiSession"
 import Contact from "./components/Contact"
 import Newletter from "./components/Newletter"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <JussiSession />
       <Contact />
       <Newletter />
+      <Footer />
     </div>
   );
 }
