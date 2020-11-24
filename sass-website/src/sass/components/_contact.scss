@@ -1,9 +1,9 @@
 .contact {
   position: absolute;
   width: 100%;
-  height: 650px;
+  height: 480px;
   left: 0px;
-  top: 2110px;
+  top: 2017px;
   background: $pink-jussi;
 
   a {
@@ -19,6 +19,7 @@
     line-height: 24px;
     text-align: center;
     color: $white;
+    text-decoration: none;
   }
 
   p {

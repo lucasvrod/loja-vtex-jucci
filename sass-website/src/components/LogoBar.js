@@ -5,18 +5,16 @@ const LogoBar = () => {
     <div className="logobar">
       <div className="container">
         <div className="logobar__content">
-          <ul className="logobar__left">
-            <li>
-              <a href="">Nossas principais lojas VTEX</a>
-            </li>
-          </ul>
+          <div className="logobar__left">
+        <a href="">Nossas principais lojas VTEX</a>
+          </div>
         </div>
         <div className="logobar__right">
           <img src="" alt="" />
-          <img src="" alt="Brastemp" />
-          <img src="" alt="CompraCerta" />
-          <img src="" alt="Consul" />
-          <img src="" alt="TheBar" />
+          <img src="/images/logo-bar/logo-brastemp@3x.svg" alt="Brastemp" />
+          <img src="/images/logo-bar/logo-consul@3x.svg" alt="CompraCerta" />
+          <img src="/images/logo-bar/logo-consul2@3x.svg" alt="Consul" />
+          <img src="/images/logo-bar/logo-thebar@3x.svg" alt="TheBar" />
         </div>
       </div>
     </div>

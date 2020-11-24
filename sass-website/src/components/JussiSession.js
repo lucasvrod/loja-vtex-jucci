@@ -14,6 +14,7 @@ const JussiSession = () => {
           <button className="jussisession__content-button" variant="outlined">Conheça a Jüssi</button>
         </div>
         <div className="jussisession__content-images">
+        <img src="/images/jussi-session/image-jussi.png" alt="Escritório Jüssi"/>
         </div>
       </div>
     </div>

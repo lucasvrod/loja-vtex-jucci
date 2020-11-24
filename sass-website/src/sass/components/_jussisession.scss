@@ -3,7 +3,7 @@
   width: 100%;
   height: 650px;
   left: 0px;
-  top: 1460px;
+  top: 1367px;
 
   &__content {
 
@@ -18,7 +18,7 @@
       font-weight: 500;
       font-size: 16px;
       line-height: 24px;
-      color: #000000;
+      color: $black;
       flex: none;
       order: 1;
       flex-grow: 0;
@@ -35,13 +35,14 @@
       height: 48px;
       left: 0px;
       top: 420px;
-      border: 1px solid #000000;
+      border: 1px solid $black;
       box-sizing: border-box;
       border-radius: 6px;
       flex: none;
       order: 2;
       flex-grow: 0;
       margin: 0px 24px;
+      background: $white;
     }
 
     &-images {
@@ -66,7 +67,7 @@
         font-size: 32px;
         line-height: 40px;
         text-transform: uppercase;
-        color: #000000;
+        color: $black;
         flex: none;
         order: 0;
         flex-grow: 0;

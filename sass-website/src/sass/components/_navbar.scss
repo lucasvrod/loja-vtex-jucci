@@ -5,6 +5,19 @@
   top: 0;
   background: $white;
 
+  & img {
+    display: flex;
+    position: static;
+    width: 184px;
+    height: 40px;
+    left: 0px;
+    top: 5px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 32px 0px;
+  }
+
   &__content {
     display: flex;
     // justify-content: space-between;

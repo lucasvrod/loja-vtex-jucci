@@ -4,4 +4,13 @@
   position: absolute;
   top: 730px;
   background: $grey;
+
+  &__right {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  & a {
+    text-decoration: none;
+  }
 }
