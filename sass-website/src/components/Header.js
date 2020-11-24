@@ -14,11 +14,17 @@ const Header = () => {
       </div>
       <div className="header__content-images">
         <div className="header__content-images-retangle2">
+        <img className="header__content-images-retangle3-image" src="/images/hero-banner/Rectangle 1.png" alt="garrafa"/>
+        <button className="header__content-images-button" variant="outlined">Comprar em 12x</button>
         </div>
         <div className="header__content-images-retangle1">
+        <img className="header__content-images-retangle3-image" src="/images/hero-banner/Rectangle 2.png" alt="geladeira"/>
+        <button className="header__content-images-button" variant="outlined">Comprar em 12x</button>
         </div>
         <div className="header__content-images-retangle3">
-        </div>
+        <img className="header__content-images-retangle3-image" src="/images/hero-banner/Rectangle 3.png" alt="batedeira"/>
+        <button className="header__content-images-button" variant="outlined">Comprar em 12x</button>
+       </div>
       </div>
     </div>
   )
