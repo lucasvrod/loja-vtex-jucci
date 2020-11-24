@@ -8,6 +8,11 @@
   &__right {
     display: flex;
     justify-content: space-around;
+    margin-top: 25px;
+  }
+
+  & label {
+    margin-top: 7px;
   }
 
   & a {
