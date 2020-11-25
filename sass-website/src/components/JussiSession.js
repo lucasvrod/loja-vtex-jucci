@@ -3,6 +3,8 @@ import React from 'react'
 const JussiSession = () => {
   return (
     <div className="jussisession">
+      <div className="jussisession__greybox">
+      </div>
       <div className="jussisession__content">
         <div className="jussisession__content-title">
           <h1 className="jussisession__content-title-h1">OLÁ, SOMOS A JÜSSI</h1>

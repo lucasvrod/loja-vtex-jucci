@@ -5,4 +5,19 @@
   left: 0px;
   top: 2933px;
   background: $black;
+
+  &__links {
+    position: relative;
+    display: inline;
+    height: 80px;
+    align-items: center;
+    float: left;
+    margin-left: 150px;
+  }
+  &__socials {
+    display: flex;
+    justify-content: space-around;
+    float: right;
+    width: 100px;
+  }
 }

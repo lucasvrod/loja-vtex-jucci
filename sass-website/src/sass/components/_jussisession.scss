@@ -5,6 +5,14 @@
   left: 0px;
   top: 1367px;
 
+  &__greybox {
+    width: 50%;
+    height: 650px;
+    background: $grey;
+    left: 0px;
+    float: right
+  }
+
   &__content {
 
     &-p {
