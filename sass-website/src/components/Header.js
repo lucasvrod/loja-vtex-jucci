@@ -3,6 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <div className="header">
+      <div className="container">
       <div className="header__content">
         <div className="header__content-title">
         <h1 className="header__content-title-slashes">//</h1>
@@ -25,6 +26,7 @@ const Header = () => {
         <img className="header__content-images-retangle3-image" src="/images/hero-banner/Rectangle 3.png" alt="batedeira"/>
         <button className="header__content-images-button" variant="outlined">Comprar em 12x</button>
        </div>
+      </div>
       </div>
     </div>
   )

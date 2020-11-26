@@ -1,3 +1,9 @@
 @mixin images($image) {
   background: url($image);
 }
+
+@mixin responsive($width){
+  @media (max-width: $width){
+    @content;
+  }
+}
