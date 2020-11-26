@@ -16,8 +16,7 @@
   }
   &__socials {
     display: flex;
-    justify-content: space-around;
-    float: right;
-    width: 100px;
+    flex-direction: row-reverse;
+    margin: 0px 200px 0px 0px;
   }
 }

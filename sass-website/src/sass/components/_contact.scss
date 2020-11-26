@@ -5,12 +5,16 @@
   left: 0px;
   top: 2017px;
   background: $pink-jussi;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 
   a {
     position: absolute;
     width: 337px;
     height: 24px;
-    left: 552px;
+    left: 33%;
     top: 320px;
     font-family: Barlow;
     font-style: normal;
@@ -20,13 +24,14 @@
     text-align: center;
     color: $white;
     text-decoration: none;
+    margin: 0px 0px 0px 8%;
   }
 
   p {
     position: absolute;
     width: 122px;
     height: 24px;
-    left: 659px;
+    left: 40%;
     top: 288px;
     font-family: Barlow;
     font-style: normal;
@@ -35,27 +40,23 @@
     line-height: 24px;
     text-align: center;
     color: $white;
+    margin: 0px 0px 0px 8%;
   }
 
-  &__content {
-
-    &-title {
-
-      &-h1 {
-        position: absolute;
-        width: 676px;
-        height: 120px;
-        left: 382px;
-        top: 136px;
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 32px;
-        line-height: 40px;
-        text-align: center;
-        text-transform: uppercase;
-        color: $white;
-      }
-    }
+  h1 {
+    position: absolute;
+    width: 676px;
+    height: 120px;
+    left: 20%;
+    top: 136px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+    margin: 0px 0px 0px 10%;
   }
 }
